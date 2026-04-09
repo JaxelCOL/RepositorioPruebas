@@ -8,13 +8,6 @@ let productos = [
 // Carrito de compras
 let carrito = [];
 
-// Mostrar productos
-function verProductos() {
-    console.log("📦 Lista de productos:");
-    productos.forEach(p => {
-        console.log(p.id + ". " + p.nombre + " - $" + p.precio);
-    });
-}
 
 // Agregar producto al carrito
 function agregarAlCarrito(idProducto) {
